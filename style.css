@@ -1,0 +1,30 @@
+*{
+    margin: 20;
+    padding: 20;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #1e1940;
+}
+
+div {
+    position:absolute
+    top: 10%;
+    left: 10%;
+    transform: translate(-0%, -0%);
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+div span {
+    font-size: 22vw;
+    font-weight: 800;
+    text-shadow: -0.08em 0.03em 0.12em rgba(0, 0, 0, 0.9);
+}
+
+div span:not(:first-child) {
+    margin-left: -0.15em;
+}
